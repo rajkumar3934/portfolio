@@ -42,7 +42,7 @@
   }
   
   
-  header h1,
+  header h2,
   header a,
   .text p,
   .about h1,
@@ -53,6 +53,10 @@
     color: #707070;
   }
   
+  header h2 {
+    margin-left: -30px;
+  }
+
   li {
     list-style: none;
     margin-left:30px;
