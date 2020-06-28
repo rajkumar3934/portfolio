@@ -149,8 +149,7 @@
   }
   
   .about h1,
-  .work h1,
-  .project h1 {
+  .work h1 {
     font-size: 7rem;
     z-index: 0;
     opacity: .1;
@@ -195,7 +194,8 @@
   }
   
   .skills h2,
-  .contact h1 {
+  .contact h1,
+  .project h1 {
     text-align: right;
     font-size: 6rem;
     opacity: .1;
