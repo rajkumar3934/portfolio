@@ -7,6 +7,8 @@
     <!-- Bootstrap CSS -->
     {{!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-social.css">
     <link rel="stylesheet" href="./css/animate.css" />
     <link rel="stylesheet" href="./css/styles1.css" />
     
@@ -35,8 +37,8 @@
       </header>
     </div>
 
-    <div class="containers main-info-section">
-      <div class="text">
+    <div class="row containers main-info-section">
+      <div class="col-sm-6 text">
         <h1>
           <span>H</span>
           <span class="m-left">i</span>
@@ -77,11 +79,28 @@
           <span class="m-left">.</span>
         </h1>
         <!-- <p> 8185059935/rajkumar3934@gmail.com</p> -->
-        <a style="text-decoration:none" href="#contact">DOWNLOAD RESUME</a>
+        <a style="text-decoration:none" href="./resume/resume(rajkumar).pdf">DOWNLOAD RESUME</a>
       </div>
  
-      <div class="profile-image">
+      <div class="col-sm-6 profile-image">
         {{!-- <img src="./img/profile-image.png"> --}}
+        <div class="col-sm">
+                    <div class="card border-0 text-center">
+                        <h3 class="card-header text-white">Basic Details</h3>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-6">Name</dt>
+                                <dd class="col-6">Kakumanu Rajkumar</dd>
+                                <dt class="col-6">Email</dt>
+                                <dd class="col-6">rajkumar3934@gmail.com</dd>
+                                <dt class="col-6">Phone</dt>
+                                <dd class="col-6">8185059935</dd>
+                                <dt class="col-6">Date of Birth</dt>
+                                <dd class="col-6">17-10-1998 </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
       </div>
     </div>
 
@@ -89,9 +108,10 @@
       <h1>About</h1>
       <div class="about-me-info">
         
-        <p>I Kakumanu Rajkumar, an enthusiastic person with highly motivated and leadership skills having bachelors of
-          engineering degree in Computer Science in IIITDM Kurnool. Expert in implementation of each step of project.
-          Eager to learn new technologies and methodologies.</p>
+        <p>Hello, I am Rajkumar, final year undergraduate at IIITDM Kurnool, majoring in CSE with current CGPA 8.3.An enthusiastic person with highly self-motivated and leadership skills. Expert in implementation
+of each step of project. Eager to learn new technologies and methodologies.
+Always willing to innovate the new things which can improve the existing
+technology.</p>
       </div>
       <img src="./img/dotted-shape.png">
     </div>
@@ -283,7 +303,7 @@
           </div>
 
           <div role="tabpanel" class="tab-pane fade" id="portfolio">
-            <p class="d-none d-sm-block">Develope a single webpage for personal portfolio which contains skills, certications, projects, resume etc.</p>
+            <p class="d-none d-sm-block">Developed a single webpage for personal portfolio which contains skills, certications, projects, resume etc.</p>
             <p><span style="color:#ED5565">Tools:</span> Node.js, HTML, CSS, Javascript, Git</p>
             <p><span style="color:#ED5565">Github:</span> <a class="github" style="text-decoration:none" href="https://github.com/rajkumar3934/portfolio">https://github.com/rajkumar3934/portfolio</a></p>
             <p><span style="color:#ED5565">Website:</span> <a class="github" style="text-decoration:none" href="https://rajkumar-kakumanu-portfolio.herokuapp.com/">https://raj3934-weather-application.herokuapp.com/</a></p>
@@ -296,7 +316,29 @@
 
     <footer>
       <hr>
-      <p>2019 copyright. All rights reserved.</p>
+      <div class="container">
+            <div class="row">             
+                
+                <div class="col-12 col-sm-6 offset-2">
+                    <h5>My Address</h5>
+                    <address>
+		              Drno: 9-3-11/1<br>
+		              Ramireddypet, Narasaraopet<br>
+		              Guntur, Andhra pradesh<br>
+                  522601<br>
+		              <i class="fa fa-phone fa-lg"></i>: 8185059935<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:rajkumar3934@gmail.com">rajkumar3934@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/profile.php?id=100003757765813"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                </div>
+           </div>
+           
+        </div>
     </footer>
 
     {{!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -315,5 +357,6 @@
     <script src="./js/TweenMax.min.js"></script>
     <script src="./js/CSSPlugin.min.js"></script>
     <script src="./js/script.js"></script>
+    
   </body>
 </html>
